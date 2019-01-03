@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<style>
+header {
+  text-align: center;
+  font-size: 30px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+</style>
+<img src="C:\Users\admin\Documents\logo.jpg" width="60" height="60"></img>
+<header>Header</header>
+<hr>
+<h2 style="text-align:center;">Add Favourte Details</h2>
+<section>
+<form>
+Name:<br>
+<input type="text" value="Enter your Name"><br><br>
+Experience:
+<input type="number" name="Month" min="0" max="12"><br><br>
+Technology:<br>
+<input type="checkbox" name="Language" value="JavaScript">JavaScript<br>
+<input type="checkbox" name="Language" value="PHP">PHP<br>
+<input type="checkbox" name="Language" value="Python">Python<br><br>
+Last Education:<br>
+<input type="radio" name="Education" value="B.E.">B.E.
+<input type="radio" name="Education" value="M.E.">M.E.
+<input type="radio" name="Education" value="BCA">BCA <br>
+<input type="radio" name="Education" value="Diploma">Diploma<br><br>
+Contact Details:<br>
+Email:
+<input type="email" placeholder="Enter Your Email" pattern=".+@gmail.com" size="30" name="email" required><br><br>
+Phone:
+<input type="tel" placeholder="Enter Your Contact" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" name="nuber" required><br><br>
+Skype:
+<input type="email" placeholder="Enter Your Email" pattern=".+@globex.com" size="30" name="email" required><br><br>
+<aside>
+<h2>NOTICE BOARD</H2>
+<ul>
+<li>Point-1</li>
+<ol type="I">
+<li>Sub Point-1</li> 
+<li>Sub Point-2</li>
+<li>Sub Point-3</li>
+</ol>
+<li>Point-2</li>
+<ol type="a">
+<li>Sub Point-1</li> 
+<li>Sub Point-2</li>
+<li>Sub Point-3</li>
+</ol>
+</aside>
+</section>
+<footer><input type="submit" value="Add Details"></footer>
+</form> 
+</html>
