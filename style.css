@@ -10,19 +10,21 @@
 	{
 		border-bottom:solid;
 	}
+	
 	.border-right
 	{
-		border-right:solid:
+		border-right:solid;	
 	}
-/*	.col-md-4
+
+	.list-group-item {
+	    display: list-item;
+	    list-style-position: inside;
+	}
+	ul.borderless li {
+	    border: none;
+	}
+	.btn
 	{
-		border-left:solid;
-	}*/
-	
-}
-.list-group-item {
-    display: list-item;
-}
-ul.borderless li {
-    border: none;
+		margin: 10px;
+	}	
 }
