@@ -1,0 +1,30 @@
+
+
+@media screen and (min-width: 768px) 
+{
+	.border-left
+	{
+		border-left:dashed;
+	}
+	.border-bottom
+	{
+		border-bottom:solid;
+	}
+	
+	.border-right
+	{
+		border-right:solid;	
+	}
+
+	.list-group-item {
+	    display: list-item;
+	    list-style-position: inside;
+	}
+	ul.borderless li {
+	    border: none;
+	}
+	.btn
+	{
+		margin: 10px;
+	}	
+}
