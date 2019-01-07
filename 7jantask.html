@@ -1,0 +1,155 @@
+<html>
+<head>
+	<title>My Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="row hidden-xs">
+		<nav class="navbar navbar-inverse">
+			<p class="navbar-text">Start Bootstrap</p>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="row container visible-xs ">
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact</a></li>
+		</div>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Start Bootstrap</span>
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+				document.getElementById("main").style.marginLeft= "0";
+			}
+		</script>
+		
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="jumbotron">
+					<div class="page-header">	
+						<h1 class="text-center">900 X 400</h1>
+					</div></div>
+				</div>
+				<div class="col-sm-4">
+					<h1>Business Name or Tagline</h1>
+					<p>This is a template that is great for small business. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
+					<ul class="nav nav-pills">
+						<li class="active"><a href="#">Call to Action!</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="card col-sm-12">
+					<nav class="navbar actioncard">
+						<div class="container-fluid"> 
+							<p class="text-center">this call to action card is a great place to showcase some important or display  a clever tag line</p>
+						</div>
+					</nav>
+				</div>
+			</div>
+			
+		<!--<div class="row">
+			<div class="card-columns">
+			<div class="col-sm-4">
+				
+				<div class="card">
+					<div class="card-body">
+			
+				<h1 class="card-title">Card One</h1>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem mangi quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+	
+			</div>
+			<div class="card-footer">
+				<a href="#" class="btn btn-primary">More Info</a>
+			</div>
+		</div>
+	</div>
+	
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-body">
+				<h1 class="card-title">Card Two</h1>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+			</div>
+			<div class="card-footer">
+		<a href="#" class="btn btn-primary">More Info</a>
+				
+			</div>
+		</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-body">
+				<h1 class="card-title">Card Three</h1>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem mangi quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+	</div>
+	<div class="card-footer">
+		<a href="#" class="btn btn-primary">More Info</a>
+			
+			</div>
+		</div>
+			</div>
+		
+	</div>
+</div>-->
+
+<div class="row">
+	<div class="col-sm-4">
+		<div class="panel panel-default">
+			<div class="panel-body"><h1>Card One</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem mangi quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+			</div>
+			<div class="panel-footer"><a href="#" class="btn btn-primary">More Info</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4">
+		<div class="panel panel-default">
+			<div class="panel-body"><h1>Card Two</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+			</div>
+			<div class="panel-footer"><a href="#" class="btn btn-primary">More Info</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4">
+		<div class="panel panel-default">
+			<div class="panel-body"><h1>Card Three</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem mangi quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+			</div>
+			<div class="panel-footer"><a href="#" class="btn btn-primary">More Info</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<footer class="container-fluid text-center footer">
+	
+	<p>Copyright <span class="glyphicon glyphicon-copyright-mark"></span> Your Website 2017</p></footer>
+
+
+</body>
+</html>
